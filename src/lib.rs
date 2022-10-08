@@ -49,6 +49,9 @@ pub use self::atoi::atoi;
 mod itoa;
 pub use self::itoa::itoa;
 
+mod iscntrl;
+pub use self::iscntrl::iscntrl;
+
 mod snprintf;
 
 /// `long long int` is always 64-bits long.
